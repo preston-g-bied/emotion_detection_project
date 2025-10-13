@@ -6,7 +6,7 @@ Same architecture as baseline but with attention mechanism integrated.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from spatial_attention import SpatialAttention
+from .spatial_attention import SpatialAttention
 
 class AttentionCNN(nn.Module):
     """
