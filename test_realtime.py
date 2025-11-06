@@ -10,7 +10,7 @@ from src.realtime.realtime_emotion_detector import RealtimeEmotionDetector
 
 def main():
     print("=" * 70)
-    print("REAL-TIME EMOTION DETECTION - STEP 1 TEST")
+    print("REAL-TIME EMOTION DETECTION - TEST")
     print("=" * 70)
     print("\nThis will open your webcam and detect emotions in real-time")
     print("Features:")

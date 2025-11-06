@@ -306,8 +306,8 @@ class RealtimeEmotionDetector:
                     )
 
                 # draw FPS and instructions
-                self.draw_fps()
-                self.draw_instructions()
+                self.draw_fps(frame)
+                self.draw_instructions(frame)
 
                 # resize of display
                 frame_resized = cv2.resize(frame, display_size)
