@@ -1,0 +1,32 @@
+{
+  "train": {
+    "happy": 6133,
+    "sad": 4106,
+    "fear": 3483,
+    "surprise": 2696,
+    "neutral": 4221,
+    "angry": 3396,
+    "disgust": 371,
+    "total": 24406
+  },
+  "val": {
+    "happy": 1082,
+    "sad": 724,
+    "fear": 614,
+    "surprise": 475,
+    "neutral": 744,
+    "angry": 599,
+    "disgust": 65,
+    "total": 4303
+  },
+  "test": {
+    "happy": 1774,
+    "sad": 1247,
+    "fear": 1024,
+    "surprise": 831,
+    "neutral": 1233,
+    "angry": 958,
+    "disgust": 111,
+    "total": 7178
+  }
+}

@@ -1,27 +1,25 @@
-# Core ML/DL frameworks
+# Core Deep Learning
 torch>=2.0.0
 torchvision>=0.15.0
-numpy>=1.21.0
-pandas>=1.3.0
 
 # Computer Vision
-opencv-python>=4.5.0
-Pillow>=8.3.0
+opencv-python>=4.8.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
 
 # Visualization
-matplotlib>=3.5.0
-seaborn>=0.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
-# Data handling
-scikit-learn>=1.0.0
-tqdm>=4.62.0
+# Utilities
+tqdm>=4.65.0
 
-# Jupyter for notebooks
+# Jupyter (for notebooks)
 jupyter>=1.0.0
-ipykernel>=6.0.0
+ipykernel>=6.25.0
 
-# Optional: For web app later
-streamlit>=1.25.0
-
-# Development tools
-pytest>=6.0.0
+# Optional: For Grad-CAM visualization
+pytorch-grad-cam>=1.4.0
